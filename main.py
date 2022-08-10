@@ -46,7 +46,7 @@ async def msg1():
 @msg1.before_loop
 async def before_msg1():
     for _ in range(60*60*24):  # loop the whole day
-        if dt.datetime.now().hour == 7:  # 24 hour format
+        if dt.datetime.now().hour == 7:  # 24 hour format (UTC)
             print('It is time')
             return
         await asyncio.sleep(1)# wait a second before looping again. You can make it more 

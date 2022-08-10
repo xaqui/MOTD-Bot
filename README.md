@@ -7,7 +7,8 @@ This Discord bot sends a message to a specific Discord channel every day at the 
 1. Set up your bot's token in the **TOKEN** variable.
 2. Set up the target channel to send the message in the **channel_id** variable. (Make sure that your bot is on the server and has rights to send messages to the channel)
 3. Write some sentences to send each day.
-4. Run the script and leave it running.
+4. Change the hour to send the messages (Default: 7 AM UTC)
+5. Run the script and leave it running.
 ## Notes
 The code of this script was not designed by me, I just stitched together a couple of snippets I found online. Leaving this here in case someone needs it.
 In addition, it might be interesting to point out that there are a great number of more feature rich Discord bots around that also implement the simple feature of this bot here. I made this quickly because I wanted a dedicated bot that only does this.
